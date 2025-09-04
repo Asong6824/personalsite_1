@@ -2,10 +2,8 @@
 import HeroSection from '@/components/features/HeroSection';
 import AboutMeSection from '@/components/features/AboutMeSection';
 import ProgrammerDetails from "@/components/features/ProgrammerDetails";
-import RecentPosts from "@/components/features/RecentPosts";
 import FootprintsSection from "@/components/features/FootprintsSection";
 import TravelSection from "@/components/features/TravelSection";
-import {getSortedPostsData} from "@/lib/post";
 // ... 导入 ProgrammerDetails, TraderDetails, TravelerDetails 等组件或直接编写内容
 
 // 示例身份详情组件 (与上一回答中类似)
@@ -21,8 +19,6 @@ const TraderDetails = () => (
 
 
 export default function HomePage() {
-    const allPosts = getSortedPostsData();
-    const recentPostsData = allPosts.slice(0, 3);
     return (
         <>
             <section id="hero"> {/* Hero Section */}
@@ -35,7 +31,6 @@ export default function HomePage() {
             <ProgrammerDetails />
             <FootprintsSection />
             <TravelSection />
-            <RecentPosts posts={recentPostsData}/>
 
             {/* 其他区域 */}
         </>

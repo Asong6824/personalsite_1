@@ -13,7 +13,6 @@ const navLinks = [
     { label: '关于我', href: '/#about', type: 'scroll' },
     { label: '技术栈', href: '/#programmer-details', type: 'scroll' },
     { label: '足迹', href: '/#footprints', type: 'scroll' },
-    { label: '博客', href: '/blog', type: 'page' },     // 明确为页面链接到 /blog
     // { label: '联系我', href: '#contact', type: 'scroll' }, // 如果需要可以加回来
 ];
 
