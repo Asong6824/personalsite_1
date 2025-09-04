@@ -54,19 +54,7 @@ export const CHANNELS_CONFIG = {
             }
         }
     },
-    finance: {
-        name: '金融',
-        description: '投资交易与金融市场分析',
-        icon: '/placeholder-image.svg',
-        columns: {
-            finance: {
-                name: '财经投资',
-                description: '财经分析与投资心得',
-                tags: ['财经', 'finance', '投资', 'investment'],
-                cover: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=2070&auto=format&fit=crop'
-            }
-        }
-    }
+
 };
 
 /**
